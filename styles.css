@@ -74,15 +74,39 @@ a {
 
 /* Section Three */
 .sec3 {
-    display: flex;
-    justify-content: center;
     margin: auto;
     width: 1000px;
     height: 500px;
 }
 
 .sec3-header {
+    text-align: center;
     color: #1F2937;
+    margin: 36px;
     font-size: 36px;
     font-weight: bolder;
 }
+
+.box3 {
+    display: flex;
+}
+
+.box3-sections {
+    display: flex;
+    flex-direction: column;
+    border: 20px;
+}
+
+.img3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box3-subtext {
+    text-wrap: wrap;
+    text-align: center;
+}
+
+/* Section Four */
+
