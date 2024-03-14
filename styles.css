@@ -136,3 +136,57 @@ a {
     text-align: right;
     font-weight: bolder;
 }
+
+/* Section Five (CTA) */
+.sec5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background: white;
+}
+
+.sec5-box {
+    display: flex;
+    justify-content: space-around;
+    background: #3882F6;
+    width: 800px;
+    height: 125px;
+    border-radius: 8px;
+}
+
+.sec5-left {
+    display: flex;
+    align-items: center;
+}
+
+.sec5-left2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec5-cta-head {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.sec5-cta,
+.sec5-cta-head {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px;
+}
+
+.sec5-button {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.sec5-right {
+    display: flex;
+    align-items: center;
+}
